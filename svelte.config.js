@@ -10,7 +10,8 @@ const config = {
 
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: vitePreprocess(
+	preprocess: [
+		vitePreprocess(),
 		mdsvex({
 			// The default mdsvex extension is .svx; this overrides that.
 			extensions: ['.md'],
@@ -18,8 +19,7 @@ const config = {
 			// Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
 			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
 		})
-	),
-
+	],
 	vitePlugin: {
 		inspector: true,
 	},
