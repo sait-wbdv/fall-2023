@@ -9,7 +9,7 @@
   import "@skeletonlabs/skeleton/styles/skeleton.css";
   // Most of your app wide CSS should be put in this file
   import "../app.postcss";
-
+  import {courses} from "$lib/stores";
   export let data;
 
   const transitionIn = {delay: 150, duration: 150};
@@ -21,6 +21,11 @@
    **/
   $: currentPage.set(data.path);
 
+  // TODO: clean up type so any isn't needed
+  let course_list: any;
+  courses.subscribe((value) => {
+    course_list = value;
+  });
   /**
    * This pre-fetches all top-level routes on the site in the background for faster loading.
    * https://kit.svelte.dev/docs#modules-$app-navigation
@@ -37,36 +42,41 @@
   <svelte:fragment slot="header">
     <AppBar>
       <svelte:fragment slot="lead">
-        <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
+        <a href="/" class="flex gap-4 lg:gap-6">
+          <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
+          <div>
+            <span class="block">Web Developer Fast Track</span>
+            <span class="block"> Fall 2023 </span>
+          </div>
+        </a>
       </svelte:fragment>
-      <a href="/">
-        <span class="block">Web Developer Fast Track</span>
-        <span class="block"> Fall 2023 </span>
-      </a>
       <svelte:fragment slot="trail">
         <MainNav />
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
 
+  <svelte:fragment slot="sidebarLeft">
+    <nav class="ml-4 mr-8 mt-12 hidden md:block">
+      <h3 class="h3">Courses</h3>
+      <ul class="my-2">
+        {#each course_list as course}
+          <li>
+            <a
+              href="/courses/{course.code}"
+              class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
+              ><h4 class="">{course.codeLabel}</h4>
+              <p>{course.title}</p></a
+            >
+          </li>
+        {/each}
+      </ul>
+    </nav>
+  </svelte:fragment>
+
   <slot />
+
   <svelte:fragment slot="pageFooter">
     <Footer />
   </svelte:fragment>
 </AppShell>
-<!-- 
-	The below markup is used on every page in the site. The <slot> is where the page's
-	actual contents will show up.
-
-<div class="layout" class:open={$isMenuOpen}>
-  <Header />
-  {#key data.path}
-    <main id="main" tabindex="-1">
-      <slot />
-    </main>
-  {/key}
-  <Footer />
-</div>
-
-
--->
