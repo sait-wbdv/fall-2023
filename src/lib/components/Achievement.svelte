@@ -15,18 +15,3 @@
   <p>To be announced</p>
   {/if}
 </section>
-
-<style>
-  section {
-    margin: 3rem 0;
-    padding: 2rem;
-    
-    border-radius: 1rem;
-    background: #eee;
-    box-shadow: inset 0 0 5px black;
-  }
-
-  h2 {
-    margin-top: 0;
-  }
-</style>
