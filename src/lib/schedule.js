@@ -427,7 +427,7 @@ export const scheduleByWeek = [
 		{
 			date: '2023-12-15',
 			type: 'holiday',
-			code: 'No Classes'
+			label: 'No Classes'
 		}
 	],
 ]
