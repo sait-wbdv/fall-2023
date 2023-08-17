@@ -1,21 +1,24 @@
 <script>
-	import MainNav from './MainNav.svelte'
-	import { siteAuthor } from '$lib/config'
+  import MainNav from "./MainNav.svelte";
+  import {siteAuthor} from "$lib/config";
 </script>
 
 <footer>
-	<MainNav />
-
-	<nav>
-		<ul>
-			<li>
-				<a href="/api/rss.xml" rel="external">RSS</a>
-			</li>
-			<li>
-				<a href="/">Home</a>
-			</li>
-		</ul>
-	</nav>
-
-	<p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+  <section class="flex gap-4 justify-around mt-3 lg:mt-6 container mx-auto">
+    <MainNav />
+    <nav>
+      <ul>
+        <li>
+          <a href="/api/rss.xml" rel="external">RSS</a>
+        </li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <hr class="opacity-80 w-4/6 mx-auto" />
+  <section class="text-center my-3 xl:my-6">
+    <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+  </section>
 </footer>

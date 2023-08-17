@@ -1,8 +1,7 @@
 <script lang="ts">
-  import Header from "$lib/components/Header.svelte";
-  import Footer from "$lib/components/Footer.svelte";
+  import {AppShell, AppBar} from "@skeletonlabs/skeleton";
   import {currentPage, isMenuOpen} from "$lib/assets/js/store";
-
+  import Footer from "$lib/components/Footer.svelte";
   // The ordering of these imports is critical to your app working properly
   import "@skeletonlabs/skeleton/themes/theme-rocket.css";
   // If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
@@ -33,10 +32,20 @@
   // })
 </script>
 
+<AppShell region="relative" slotPageHeader="sticky top-0 z-10">
+  <svelte:fragment slot="pageHeader">
+    <AppBar>Sait</AppBar>
+  </svelte:fragment>
+  <slot />
+  <svelte:fragment slot="pageFooter">
+    <Footer />
+  </svelte:fragment>
+</AppShell>
+
 <!-- 
 	The below markup is used on every page in the site. The <slot> is where the page's
 	actual contents will show up.
--->
+
 <div class="layout" class:open={$isMenuOpen}>
   <Header />
   {#key data.path}
@@ -47,8 +56,5 @@
   <Footer />
 </div>
 
-<style>
-  main {
-    max-width: 150ch;
-  }
-</style>
+
+-->
