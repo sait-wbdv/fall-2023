@@ -57,7 +57,7 @@
   </svelte:fragment>
 
   <svelte:fragment slot="sidebarLeft">
-    <nav class="ml-4 mr-8 mt-12 hidden md:block">
+    <nav class="ml-4 mr-8 hidden md:block">
       <h3 class="h3">Courses</h3>
       <ul class="my-2">
         {#each course_list as course}
