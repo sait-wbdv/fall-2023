@@ -8,15 +8,15 @@
   const lesson = $lessonsById[`${$page.params.code}/${$page.params.day}`];
 </script>
 
-<nav class="page-nav">
-  <ul class="flex justify-around">
+<nav class="page-nav my-6 container mx-auto">
+  <ul class="flex justify-between">
     {#if lesson.prev}
       <li><a href="/courses/{lesson.prev}">Prev</a></li>
     {:else}
       <li><span>Prev</span></li>
     {/if}
     <li>
-      <time datetime={lesson.date}>{dayjs(lesson.date).format("dddd, MMM D")}</time>
+      <time datetime={lesson.date}><strong>{dayjs(lesson.date).format("dddd, MMM D")}</strong></time>
     </li>
     {#if lesson.next}
       <li><a href="/courses/{lesson.next}">Next</a></li>
@@ -34,10 +34,10 @@
   <header>
     <h1>{lesson.title}</h1>
   </header>
-  <div class="flex">
-    <article>
+  <div class="flex justify-between">
+    <article class="mx-auto container">
       {@html data.lessonContent}
     </article>
-    <TableOfContents allowedHeadings="h2" />
+    <TableOfContents allowedHeadings="h2" class="hidden lg:block" />
   </div>
 {/if}

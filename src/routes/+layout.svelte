@@ -61,7 +61,7 @@
               target="_self"
               class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
               ><h4 class="">{course.codeLabel}</h4>
-              <p class="hidden lg:block">{course.title}</p>
+              <p class="hidden xl:block">{course.title}</p>
             </a>
           </li>
         {/each}
