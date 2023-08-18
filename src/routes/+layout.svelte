@@ -21,11 +21,6 @@
    **/
   $: currentPage.set(data.path);
 
-  // TODO: clean up type so any isn't needed
-  let course_list: any;
-  courses.subscribe((value) => {
-    course_list = value;
-  });
   /**
    * This pre-fetches all top-level routes on the site in the background for faster loading.
    * https://kit.svelte.dev/docs#modules-$app-navigation
@@ -59,15 +54,15 @@
   <svelte:fragment slot="sidebarLeft">
     <nav class="ml-4 mr-8 hidden md:block">
       <h3 class="h3">Courses</h3>
-      <ul class="my-2">
-        {#each course_list as course}
+      <ul class="list">
+        {#each $courses as course}
           <li>
             <a
               href="/courses/{course.code}"
               class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
               ><h4 class="">{course.codeLabel}</h4>
-              <p>{course.title}</p></a
-            >
+              <p>{course.title}</p>
+            </a>
           </li>
         {/each}
       </ul>
