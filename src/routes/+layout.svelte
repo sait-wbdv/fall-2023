@@ -45,7 +45,7 @@
         </a>
       </svelte:fragment>
       <svelte:fragment slot="trail">
-        <MainNav />
+        <MainNav styles="gap-4" />
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
