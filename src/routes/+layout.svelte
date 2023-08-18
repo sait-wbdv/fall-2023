@@ -11,7 +11,6 @@
   import "../app.postcss";
   import {courses} from "$lib/stores";
   export let data;
-
   const transitionIn = {delay: 150, duration: 150};
   const transitionOut = {duration: 100};
 
@@ -59,6 +58,7 @@
           <li>
             <a
               href="/courses/{course.code}"
+              target="_self"
               class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
               ><h4 class="">{course.codeLabel}</h4>
               <p>{course.title}</p>
