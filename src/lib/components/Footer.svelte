@@ -5,7 +5,7 @@
 
 <footer>
   <section
-    class="flex flex-col lg:flex-row gap-4 justify-between lg:justify-around mt-3 lg:mt-6 container lg:mx-auto mx-4 mb-4 lg:mb-0"
+    class="flex flex-col lg:flex-row gap-4 justify-between lg:w-4/6 mt-3 lg:mt-6 container lg:mx-auto mx-4 mb-4 lg:mb-0"
   >
     <MainNav />
     <nav>
