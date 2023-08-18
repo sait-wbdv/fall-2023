@@ -51,7 +51,7 @@
   </svelte:fragment>
 
   <svelte:fragment slot="sidebarLeft">
-    <nav class="ml-4 mr-8 hidden md:block">
+    <nav class="ml-4 mr-8 hidden md:block md:mr-20 lg:mr-8 mt-6">
       <h3 class="h3">Courses</h3>
       <ul class="list">
         {#each $courses as course}
@@ -61,7 +61,7 @@
               target="_self"
               class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
               ><h4 class="">{course.codeLabel}</h4>
-              <p>{course.title}</p>
+              <p class="hidden lg:block">{course.title}</p>
             </a>
           </li>
         {/each}
