@@ -6,7 +6,7 @@ export const lessons = await Promise.all(
 
     // .slice(11, -3) removes the date (ex. 2022-06-12) and the file extension
     
-    const pathArray = path.split('/')
+    const pathArray = path.split('/');
     const fileName = pathArray.pop().slice(0,-3);
     const day = fileName.slice(0,2);
     const code = pathArray.pop();
