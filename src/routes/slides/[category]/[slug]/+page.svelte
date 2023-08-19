@@ -11,7 +11,7 @@
 	import 'reveal.js/dist/theme/black.css';
 	import 'reveal.js/plugin/highlight/monokai.css';
 	import '$lib/plugins/copycode.css';
-	import '../../../app.postcss';
+	import '../../../../app.postcss';
 
 	export let data;
 

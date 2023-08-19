@@ -1,11 +1,13 @@
-const mdImports = Object.entries(import.meta.glob('../content/slides/*.md', {  as: 'raw', eager: true }));
+const mdImports = Object.entries(import.meta.glob('../content/slides/**/*.md', {  as: 'raw', eager: true }));
 
 const deckObj = {}
 
-mdImports.forEach(([path, module]) => {  
-  const slug = path.split('/').at(-1)?.replace('.md', '');
-  if (!deckObj[slug]) {
-    deckObj[slug] = [path, module, 'md'];
+mdImports.forEach(([path, module]) => {
+  const pathArray = path.split('/');
+  const fileName = pathArray.pop().replace('.md', '');
+  const category = pathArray.pop();
+  if (!deckObj[`${category}/${fileName}`]) {
+    deckObj[`${category}/${fileName}`] = [category, module, 'md'];
   }
 });
 
