@@ -39,7 +39,7 @@
               <div class="bg-gradient-to-r from-error-300 to-primary-400 bg-clip-text text-transparent mt-1">
                 <time class="font-bold">{dayjs(day.date).format("dddd, MMM D")}</time>
               </div>
-              <article class="holiday pl-2>
+              <article class="holiday pl-2">
                 <h3 class="text-slate-500">{day.label}</h3>
               </article>
             {/if}
