@@ -5,7 +5,7 @@
 
 <footer>
   <section
-    class="flex flex-col lg:flex-row gap-4 justify-between lg:w-4/6 mt-3 lg:mt-6 container lg:mx-auto mx-4 mb-4 lg:mb-0"
+    class="flex flex-col lg:flex-row gap-4 justify-between lg:w-4/6 xl:w-full mt-3 lg:mt-6 container lg:mx-auto mx-4 mb-4 lg:mb-0 xl:px-2"
   >
     <MainNav styles="flex-col" />
     <nav>
@@ -19,7 +19,7 @@
       </ul>
     </nav>
   </section>
-  <hr class="opacity-80 w-4/6 mx-auto" />
+  <hr class="opacity-80 w-4/6 mx-auto xl:w-full xl:px-2" />
   <section class="text-center my-3 xl:my-6">
     <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
   </section>
