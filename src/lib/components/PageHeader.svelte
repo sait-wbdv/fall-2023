@@ -3,7 +3,7 @@
   export let description = "A brief descriptive paragraph.";
 </script>
 
-<header class="mt-4 xl:mt-12">
+<header class="mt-4 xl:mt-12 mb-4 xl:mb-8 mx-4 xl:mx-0">
   <h1 class="mb-2 xl:mb-3 text-transparent bg-gradient-to-r from-pink-500/80 to-secondary-600 bg-clip-text">
     {title}
   </h1>
