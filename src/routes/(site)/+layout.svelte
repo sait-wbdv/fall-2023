@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {AppShell, AppBar} from "@skeletonlabs/skeleton";
+  import {AppShell, AppBar, LightSwitch} from "@skeletonlabs/skeleton";
   import {currentPage, isMenuOpen} from "$lib/assets/js/store";
   import MainNav from "$lib/components/MainNav.svelte";
   import Footer from "$lib/components/Footer.svelte";
@@ -46,6 +46,7 @@
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <MainNav styles="gap-4" />
+        <LightSwitch rounded="rounded-xl" />
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
