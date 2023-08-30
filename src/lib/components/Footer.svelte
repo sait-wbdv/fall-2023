@@ -6,7 +6,7 @@
 
 <footer class="mx-4 mt-6">
   <section class="flex flex-col items-center">
-    <img src="images/sait-logo.png" alt="Sait Logo" class="w-16 mb-2" />
+    <img src="/images/sait-logo.png" alt="Sait Logo" class="w-16 mb-2" />
     <MainNav styles="gap-2" />
   </section>
   <hr class="opacity-80 max-w-2xl mx-auto xl:w-full xl:px-2 mb-4" />
