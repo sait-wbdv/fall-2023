@@ -1,6 +1,7 @@
 <script lang="ts">
   import {AppShell, AppBar, LightSwitch} from "@skeletonlabs/skeleton";
   import {currentPage, isMenuOpen} from "$lib/assets/js/store";
+  import Icon from "@iconify/svelte";
   import MainNav from "$lib/components/MainNav.svelte";
   import Footer from "$lib/components/Footer.svelte";
   // The ordering of these imports is critical to your app working properly
@@ -36,7 +37,7 @@
   <svelte:fragment slot="header">
     <AppBar>
       <svelte:fragment slot="lead">
-        <a href="/" class="flex gap-4 lg:gap-6">
+        <a href="/" class="flex items-center gap-4 lg:gap-6">
           <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
           <div>
             <span class="block">Web Developer Fast Track</span>
@@ -45,8 +46,15 @@
         </a>
       </svelte:fragment>
       <svelte:fragment slot="trail">
-        <MainNav styles="gap-4" />
-        <LightSwitch rounded="rounded-xl" />
+        <div class="flex justify-center gap-4">
+          <MainNav styles="gap-4" />
+          <div class="border-l-2 h-fit px-4 border-slate-400 flex gap-4 items-center">
+            <LightSwitch rounded="rounded-xl" />
+            <a href="https://github.com/sait-wbdv" target="_blank"
+              ><Icon icon="fa6-brands:github" class="text-xl dark:text-white text-black" /></a
+            >
+          </div>
+        </div>
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
