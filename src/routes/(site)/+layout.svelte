@@ -33,7 +33,7 @@
   // })
 </script>
 
-<AppShell>
+<AppShell regionPage="scroll-smooth">
   <svelte:fragment slot="header">
     <AppBar>
       <svelte:fragment slot="lead">
@@ -46,8 +46,11 @@
         </a>
       </svelte:fragment>
       <svelte:fragment slot="trail">
-        <div class="flex justify-center gap-4">
-          <MainNav styles="gap-4" />
+        <div class="flex justify-center items-center gap-4">
+          <MainNav styles="gap-4 hidden lg:flex" />
+          <button class="lg:hidden">
+            <Icon icon="fa6-solid:bars" />
+          </button>
           <div class="border-l-2 h-fit px-4 border-slate-400 flex gap-4 items-center">
             <LightSwitch rounded="rounded-xl" />
             <a href="https://github.com/sait-wbdv" target="_blank"
@@ -56,6 +59,8 @@
           </div>
         </div>
       </svelte:fragment>
+      <!-- Add aria role to note mobile nav -->
+      <svelte:fragment slot="headline"><MainNav styles="items-center flex-col lg:hidden" /></svelte:fragment>
     </AppBar>
   </svelte:fragment>
 
