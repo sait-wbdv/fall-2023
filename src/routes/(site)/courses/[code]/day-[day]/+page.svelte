@@ -39,6 +39,11 @@
     <article class="mx-4 lg:mx-auto container">
       {@html data.lessonContent}
     </article>
-    <TableOfContents allowedHeadings="h2" rounded="rounded-md" active="bg-primary-800/20" class="hidden lg:block" />
+    <!-- <TableOfContents
+      allowedHeadings="h2"
+      rounded="rounded-md"
+      active="bg-primary-800/20"
+      class="hidden lg:block sticky top-10"
+    /> -->
   </div>
 {/if}
