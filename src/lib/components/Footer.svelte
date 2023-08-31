@@ -1,5 +1,6 @@
 <script>
-  import MainNav from "./MainNav.svelte";
+  import {navItems} from "$lib/config";
+  import NavItem from "./NavItem.svelte";
   import {siteAuthor} from "$lib/config";
   import Icon from "@iconify/svelte";
 </script>
@@ -7,7 +8,15 @@
 <footer class="mx-4 mt-6">
   <section class="flex flex-col items-center">
     <img src="/images/sait-logo.png" alt="Sait Logo" class="w-16 mb-2" />
-    <MainNav styles="gap-2" />
+    <nav class="mb-2">
+      <ul class="flex gap-2 lg:gap-4">
+        {#each navItems as page}
+          <NavItem href={page.route}>
+            {page.title}
+          </NavItem>
+        {/each}
+      </ul>
+    </nav>
   </section>
   <hr class="opacity-80 max-w-2xl mx-auto xl:w-full xl:px-2 mb-4" />
   <section>
