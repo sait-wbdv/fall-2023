@@ -4,7 +4,9 @@
 </script>
 
 <header class="mt-4 xl:mt-12 mb-4 xl:mb-8 mx-4 xl:mx-0">
-  <h1 class="mb-2 xl:mb-3 text-transparent bg-gradient-to-r from-pink-500/80 to-secondary-600 bg-clip-text">
+  <h1
+    class="mb-2 xl:mb-3 text-transparent bg-gradient-to-r from-primary-500 to-pink-500 dark:from-primary-400/80 dark:to-tertiary-600 bg-clip-text"
+  >
     {title}
   </h1>
   <p class="text-lg xl:text-xl">{description}</p>
