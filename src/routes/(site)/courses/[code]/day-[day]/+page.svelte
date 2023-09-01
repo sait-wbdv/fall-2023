@@ -6,8 +6,6 @@
   export let data;
 
   const lesson = $lessonsById[`${$page.params.code}/${$page.params.day}`];
-
-  console.log(lesson)
 </script>
 
 <nav class=" page-nav my-6 container lg:mx-auto">
