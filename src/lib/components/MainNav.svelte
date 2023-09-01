@@ -5,16 +5,16 @@
   import HamburgerMenuButton from "./HamburgerMenuButton.svelte";
 
   export let styles = "flex-row";
+  export let ariaLabel = "";
 </script>
 
 <!-- Contents of this file will be used in the header and the responsive hamburger menu. -->
-<nav class:open={$isMenuOpen}>
-  <ul class="flex flex-wrap {styles}">
+<nav aria-label={ariaLabel}>
+  <ul class="flex {styles}">
     {#each navItems as page}
       <NavItem href={page.route}>
         {page.title}
       </NavItem>
     {/each}
   </ul>
-  <HamburgerMenuButton closeOnly="true" />
 </nav>
