@@ -67,12 +67,11 @@ courseInfo.map(course => {
 	return course;
 })
 
+
 export const courses = writable(courseInfo.sort((a, b) => {
-		if (a.days[0] < b.days[0]) {
-			return -1;
-		} else {
-			return 1;
-		}
+		// Sort courses based on first day of class
+		if (a.days[0] < b.days[0]) return -1
+		return 1
 	}));
 
 export const lessonsById = writable(lessonsObj);
