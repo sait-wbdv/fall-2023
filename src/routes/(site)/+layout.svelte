@@ -54,7 +54,7 @@
         <div class="flex justify-center items-center gap-4">
           <MainNav styles="gap-4 hidden lg:flex" />
 
-          <div class="border-r-2 h-fit px-4 border-slate-400 flex gap-4 items-center">
+          <div class="border-r-2 lg:border-none h-fit px-4 border-slate-400 flex gap-4 items-center">
             <LightSwitch rounded="rounded-xl" />
             <a href="https://github.com/sait-wbdv" target="_blank"
               ><Icon icon="fa6-brands:github" class="text-xl dark:text-white text-black" /></a
