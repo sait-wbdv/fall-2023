@@ -24,7 +24,7 @@
               >
                 <article class="{day.code} lesson">
                   <p>{day.code.toUpperCase().replace("-", " ")} - Day {day.day}</p>
-                  <h3 class="text-primary-300">{day.title}</h3>
+                  <h3 class="text-primary-300 h4">{day.title}</h3>
                 </article>
               </a>
             {:else if day.status === "draft"}
@@ -33,7 +33,7 @@
               </div>
               <article class="{day.code} unpublished pl-2">
                 <p>{day.code.toUpperCase().replace("-", " ")} - Day {day.day}</p>
-                <h3 class="text-slate-500">To be Announced</h3>
+                <h3 class="text-slate-500 h4">To be Announced</h3>
               </article>
             {:else}
               <div class="bg-gradient-to-r from-error-300 to-primary-400 bg-clip-text text-transparent mt-1">
