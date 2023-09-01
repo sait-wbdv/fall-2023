@@ -5,10 +5,11 @@
 
 	export let data;
 
-  const course = $courses.find((item) => item.code === $page.params.code);
+  const course = $courses.find((item) => item.code === $page.params.code);;
 </script>
 <h1>{course.codeLabel} - {course.title}</h1>
 <p>{course.excerpt}</p>
+{@html data.content}
 <h2>Lesson Schedule</h2>
 <ul>
   {#each course.days as date, index}
