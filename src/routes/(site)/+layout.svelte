@@ -1,6 +1,6 @@
 <script lang="ts">
   import {AppShell, AppBar, LightSwitch} from "@skeletonlabs/skeleton";
-  import {currentPage, isMenuOpen} from "$lib/assets/js/store";
+  import {currentPage} from "$lib/assets/js/store";
   import Icon from "@iconify/svelte";
   import MainNav from "$lib/components/MainNav.svelte";
   import Footer from "$lib/components/Footer.svelte";
@@ -14,6 +14,11 @@
   export let data;
   const transitionIn = {delay: 150, duration: 150};
   const transitionOut = {duration: 100};
+
+  let navOpen = false;
+  function handleNav() {
+    navOpen = !navOpen;
+  }
 
   /**
    * Updates the global store with the current path. (Used for highlighting
@@ -41,26 +46,36 @@
           <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
           <div>
             <span class="block">Web Developer Fast Track</span>
-            <span class="block"> Fall 2023 </span>
+            <span class="hidden lg:block"> Fall 2023 </span>
           </div>
         </a>
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <div class="flex justify-center items-center gap-4">
           <MainNav styles="gap-4 hidden lg:flex" />
-          <button class="lg:hidden">
-            <Icon icon="fa6-solid:bars" />
-          </button>
-          <div class="border-l-2 h-fit px-4 border-slate-400 flex gap-4 items-center">
+
+          <div class="border-r-2 h-fit px-4 border-slate-400 flex gap-4 items-center">
             <LightSwitch rounded="rounded-xl" />
             <a href="https://github.com/sait-wbdv" target="_blank"
               ><Icon icon="fa6-brands:github" class="text-xl dark:text-white text-black" /></a
             >
           </div>
+          <button on:click={handleNav} class="lg:hidden hover:opacity-75 transition duration-150 ease-linear">
+            {#if navOpen === false}
+              <Icon icon="fa6-solid:bars" />
+            {:else}
+              <Icon icon="fa6-solid:x" />
+            {/if}
+          </button>
         </div>
       </svelte:fragment>
       <!-- Add aria role to note mobile nav -->
-      <svelte:fragment slot="headline"><MainNav styles="items-center flex-col lg:hidden" /></svelte:fragment>
+      <svelte:fragment slot="headline"
+        ><MainNav
+          styles="items-center flex-col lg:hidden {navOpen ? 'flex' : 'hidden'}"
+          ariaLabel="Mobile Navigation"
+        /></svelte:fragment
+      >
     </AppBar>
   </svelte:fragment>
 
@@ -82,7 +97,6 @@
       </ul>
     </nav>
   </svelte:fragment>
-
   <slot />
 
   <svelte:fragment slot="pageFooter">
