@@ -25,13 +25,26 @@
     </div>
     <ul class="flex justify-center gap-2 lg:gap-4 mb-4">
       <li>
-        <a href="https://codepen.io/acidtone" target="_blank"><Icon icon="fa6-brands:codepen" class="text-xl" /></a>
+        <a
+          href="https://codepen.io/acidtone"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          ><Icon icon="fa6-brands:codepen" class="text-xl" /></a
+        >
       </li>
       <li>
-        <a href="https://github.com/sait-wbdv" target="_blank"><Icon icon="fa6-brands:github" class="text-xl" /></a>
+        <a
+          href="https://github.com/sait-wbdv"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          ><Icon icon="fa6-brands:github" class="text-xl" /></a
+        >
       </li>
       <li>
-        <a href="https://www.figma.com/team_invite/redeem/iied98q0sW8p9gSDqm1hML" target="_blank"
+        <a
+          href="https://www.figma.com/team_invite/redeem/iied98q0sW8p9gSDqm1hML"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
           ><Icon icon="fa6-brands:figma" class="text-xl" /></a
         >
       </li>
