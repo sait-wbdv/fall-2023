@@ -1,26 +1,53 @@
 <script>
-  import MainNav from "./MainNav.svelte";
+  import {navItems} from "$lib/config";
+  import NavItem from "./NavItem.svelte";
   import {siteAuthor} from "$lib/config";
+  import Icon from "@iconify/svelte";
 </script>
 
-<footer>
-  <section
-    class="flex flex-col lg:flex-row gap-4 justify-between lg:w-4/6 xl:w-full mt-3 lg:mt-6 container lg:mx-auto mx-4 mb-4 lg:mb-0 xl:px-2"
-  >
-    <MainNav styles="flex-col" />
-    <nav>
-      <ul>
-        <li>
-          <a href="/api/rss.xml" rel="external">RSS</a>
-        </li>
-        <li>
-          <a href="/">Home</a>
-        </li>
+<footer class="mx-4 mt-6">
+  <section class="flex flex-col items-center">
+    <img src="/images/sait-logo.png" alt="Sait Logo" class="w-16 mb-2" />
+    <nav class="mb-2">
+      <ul class="flex gap-2 lg:gap-4">
+        {#each navItems as page}
+          <NavItem href={page.route}>
+            {page.title}
+          </NavItem>
+        {/each}
       </ul>
     </nav>
   </section>
-  <hr class="opacity-80 w-4/6 mx-auto xl:w-full xl:px-2" />
-  <section class="text-center my-3 xl:my-6">
-    <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+  <hr class="opacity-80 max-w-2xl mx-auto xl:w-full xl:px-2 mb-4" />
+  <section>
+    <div class="text-center my-2">
+      <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+    </div>
+    <ul class="flex justify-center gap-2 lg:gap-4 mb-4">
+      <li>
+        <a
+          href="https://codepen.io/acidtone"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          ><Icon icon="fa6-brands:codepen" class="text-xl" /></a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/sait-wbdv"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          ><Icon icon="fa6-brands:github" class="text-xl" /></a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.figma.com/team_invite/redeem/iied98q0sW8p9gSDqm1hML"
+          target="_blank"
+          class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          ><Icon icon="fa6-brands:figma" class="text-xl" /></a
+        >
+      </li>
+    </ul>
   </section>
 </footer>
