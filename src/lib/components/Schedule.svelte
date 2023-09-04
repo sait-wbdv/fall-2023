@@ -2,13 +2,26 @@
   import {Accordion, AccordionItem} from "@skeletonlabs/skeleton";
   import {schedule} from "$lib/stores.js";
   import dayjs from "dayjs";
+
+  const weekOfYear = () => {
+    // Calculate current week of the year
+    const workingDate = new Date();
+    const startDate = new Date(workingDate.getFullYear(), 0, 1);
+    const days = Math.floor((workingDate - startDate) /
+      (24 * 60 * 60 * 1000));
+
+    const weekNumber = Math.ceil(days / 7);
+    return weekNumber;
+  }
+
 </script>
 
-<!-- TODO: use autocollapse + open props dyanmically for the current week -->
 {#each $schedule as week, index}
   <section class="lg:my-2">
     <Accordion rounded="rounded-md" spacing="space-y-3">
-      <AccordionItem>
+      <!-- TODO: figure out a less hacky way to auto-open current week -->
+      <!-- 'index + 36' will need to be updated for fall/winter semesters -->
+      <AccordionItem open={weekOfYear() == index + 36}>
         <svelte:fragment slot="summary">
           <h2 class="h3" id="week-{index + 1}">Week {index + 1}</h2>
         </svelte:fragment>
