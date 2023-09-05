@@ -31,12 +31,12 @@
   <h1>To be Announced</h1>
   <p>This lesson has not been released.</p>
 {:else}
-  <header class="my-4 lg:my-6 mx-4 lg:mx-auto">
+  <header class="my-4 lg:my-6 mx-4">
     <h1 class="h1 mb-2">{lesson.title}</h1>
     <p>{lesson.excerpt}</p>
   </header>
   <div class="flex justify-between">
-    <article class="mx-4 lg:mx-auto container">
+    <article class="mx-4 container">
       {@html data.lessonContent}
     </article>
     <TableOfContents
