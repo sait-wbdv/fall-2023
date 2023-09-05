@@ -5,7 +5,7 @@
   import PageHeader from "$lib/components/PageHeader.svelte";
   export let data;
 
-  const course = $courses.find((item) => item.code === $page.params.code);
+  const course = $courses.find((item) => item.code === $page.params.code);;
 </script>
 
 <PageHeader title={`${course.codeLabel} - ${course.title}`} description={course.excerpt} />
