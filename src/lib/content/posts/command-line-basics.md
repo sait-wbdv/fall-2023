@@ -101,6 +101,7 @@ $ cd
 ```
 
 <h2>Quality of Life Tips</h2>
+
 - The tab key auto-completes file names and directories.
 - Use the Up Arrow to browse through the history of last used commands.
     - Pro tip: type your command first and the Up Arrow will filter the history!
