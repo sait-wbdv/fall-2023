@@ -8,7 +8,7 @@
 	import CopyCode from '$lib/plugins/copycode.esm';
 
 	import 'reveal.js/dist/reveal.css';
-	import 'reveal.js/dist/theme/black.css';
+	import 'reveal.js/dist/theme/sky.css';
 	import 'reveal.js/plugin/highlight/monokai.css';
 	import '$lib/plugins/copycode.css';
 	import '../../../../app.postcss';
