@@ -19,7 +19,7 @@ It's recommended that you create a dedicated directory (workspace) for the code 
 ---
 
 <h2>Assignments</h2>
-You should bee your assignments separate from all other code. You can put them all into an `assignments` folder or maybe create parent directories for each course. It's up to you.
+You should keep your assignments separate from all other code. You can put them all into an `assignments` folder or maybe create parent directories for each course. It's up to you.
 
 ```html
 /sait-wbdv/assignments/
@@ -39,8 +39,23 @@ You should bee your assignments separate from all other code. You can put them a
 
 ---
 
-<h2>Code Journal</h2>
-.
+<h2>Coding Journal</h2>
+
+The purpose of a learning journal: 
+- to give you the ability to self-assess accurately;
+- to keep track of helpful resources and content creators;
+- to promote meta-learning (learning to become a more effective learner).
+
+See: [Grimes's Coding Journal](https://acidtone.github.io/code-journal/)
+
+### Three components to a learning journal
+1. Define the learning goal concretely and precisely.
+    - Example: running a marathon
+        - **A good goal**: "I want to be able to run a marathon in less than 4 hours."
+        - **NOT a good goal**: "I want to finish first in a marathon."
+2. Write down the learning process.
+3. Make observations, collect data, self-reflect and develop new learning strategies.
+
 
 ```html
 /sait-wbdv/code-journal/
@@ -52,10 +67,10 @@ Note: Placing all your journal entries in a single `README.md` is a good start b
 ---
 
 <h2>Daily in-class code</h2>
-In this program, you will be creating "throw-away" code each day (experiments, challenges, pair coding), it often makes sense to organize your code by date so it doesn't get in the way of your longer-term projects:
+In this program, you will be creating a lot of "throw-away" code each day (experiments, challenges, pair coding). It often makes sense to organize your code by date so it doesn't get in the way of your longer-term projects:
 
 ```html
-/sait-wbdv/dailies/
+/sait-wbdv/in-class/
   ├─ 2021-09-11-intro-to-html/
     ├─ hello-world/
     ├─ my-first-website/
