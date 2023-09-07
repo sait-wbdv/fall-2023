@@ -67,6 +67,7 @@ Note: Placing all your journal entries in a single `README.md` is a good start b
 ---
 
 <h2>Daily in-class code</h2>
+
 In this program, you will be creating a lot of "throw-away" code each day (experiments, challenges, pair coding). It often makes sense to organize your code by date so it doesn't get in the way of your longer-term projects:
 
 ```html
