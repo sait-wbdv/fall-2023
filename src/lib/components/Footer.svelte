@@ -9,7 +9,7 @@
   <section class="flex flex-col items-center">
     <img src="/images/sait-logo.png" alt="Sait Logo" class="w-16 mb-2" />
     <nav class="mb-2">
-      <ul class="flex gap-2 lg:gap-4">
+      <ul class="flex gap-2 lg:gap-4 list-none">
         {#each navItems as page}
           <NavItem href={page.route}>
             {page.title}
@@ -23,7 +23,7 @@
     <div class="text-center my-2">
       <p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
     </div>
-    <ul class="flex justify-center gap-2 lg:gap-4 mb-4">
+    <ul class="flex justify-center gap-2 lg:gap-4 mb-4 list-none">
       <li>
         <a
           href="https://codepen.io/acidtone"

@@ -9,18 +9,18 @@
 </script>
 
 <nav class=" page-nav my-6 container lg:mx-auto">
-  <ul class="flex justify-around lg:justify-between">
+  <ul class="flex justify-around lg:justify-between list-none">
     {#if lesson.prev}
-      <li><a href="/courses/{lesson.prev}" class="btn variant-filled rounded-md" target="_self">Prev</a></li>
+      <li><a href="/courses/{lesson.prev}" class="btn variant-filled rounded-md no-underline" target="_self">Prev</a></li>
     {:else}
       <li><span class="btn varient-outline rounded-md">Prev</span></li>
     {/if}
     <li class="text-center">
-      <time datetime={lesson.date}><strong>{dayjs(lesson.date).format("dddd, MMM D")}</strong></time>
+      <time datetime={lesson.date} class="text-3xl"><strong>{dayjs(lesson.date).format("dddd, MMM D")}</strong></time>
       <p>{lesson.codeLabel} - Day {lesson.day}</p>
     </li>
     {#if lesson.next}
-      <li><a href="/courses/{lesson.next}" class="btn variant-filled rounded-md" target="_self">Next</a></li>
+      <li><a href="/courses/{lesson.next}" class="btn variant-filled rounded-md no-underline" target="_self">Next</a></li>
     {:else}
       <li><span class="btn varient-outline rounded-md">Next</span></li>
     {/if}
