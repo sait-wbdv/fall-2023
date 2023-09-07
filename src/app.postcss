@@ -2,27 +2,36 @@
 
 html,
 body {
-  @apply h-full overflow-hidden;
+  @apply h-full overflow-hidden leading-relaxed;
 }
 
 @layer base {
   h1 {
-    @apply text-3xl lg:text-5xl pb-1 lg:pb-3;
+    @apply text-3xl lg:text-5xl my-2 lg:my-4;
   }
   h2 {
-    @apply text-2xl lg:text-3xl pb-1 lg:pb-2;
+    @apply text-2xl lg:text-3xl my-4 lg:my-4;
   }
   h3 {
-    @apply text-lg lg:text-xl pb-1;
+    @apply text-lg lg:text-xl  my-1 lg:my-3;
   }
   p {
-    @apply mb-2 lg:mb-4;
+    @apply my-2 lg:mb-4;
   }
   a {
     @apply font-medium;
   }
   ul {
-    @apply ml-2 lg:ml-4;
+    @apply m-2 lg:m-4 pl-2 list-disc;
+  }
+  ol {
+    @apply m-2 lg:m-4 pl-3 list-decimal;
+  }
+  hr {
+    @apply my-8;
+  }
+  a {
+    @apply underline font-bold;
   }
 }
 

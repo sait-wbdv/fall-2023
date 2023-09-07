@@ -15,7 +15,7 @@
 <li
   class="dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
 >
-  <a {href} on:click={maybeCloseMenu} class:active={isCurrentPage} aria-current={isCurrentPage ? "page" : false}>
+  <a class="no-underline" {href} on:click={maybeCloseMenu} class:active={isCurrentPage} aria-current={isCurrentPage ? "page" : false}>
     <slot />
   </a>
 </li>

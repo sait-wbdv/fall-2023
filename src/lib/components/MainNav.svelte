@@ -10,7 +10,7 @@
 
 <!-- Contents of this file will be used in the header and the responsive hamburger menu. -->
 <nav aria-label={ariaLabel}>
-  <ul class="flex {styles}">
+  <ul class="flex list-none {styles}">
     {#each navItems as page}
       <NavItem href={page.route}>
         {page.title}

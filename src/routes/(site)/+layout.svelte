@@ -42,7 +42,7 @@
   <svelte:fragment slot="header">
     <AppBar>
       <svelte:fragment slot="lead">
-        <a href="/" class="flex items-center gap-4 lg:gap-6">
+        <a href="/" class="flex items-center gap-4 lg:gap-6 no-underline">
           <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
           <div>
             <span class="block">Web Developer Fast Track</span>
@@ -88,7 +88,7 @@
             <a
               href="/courses/{course.code}"
               target="_self"
-              class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear"
+              class="p-2 hover:bg-primary-800/20 block rounded-md transition duration-150 ease-linear no-underline"
               ><h4>{course.codeLabel}</h4>
               <p class="hidden xl:block w-48">{course.title}</p>
             </a>
