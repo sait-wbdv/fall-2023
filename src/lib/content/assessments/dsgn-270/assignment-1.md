@@ -8,7 +8,7 @@ status: published
 
 <h2 id="due-date">Due September 11 2023 @ 11:59PM</h2>
 
-<h2> Scenario</h2>
+<h2>Scenario</h2>
 
 You are starting out a new web development project and need to do some initial planning on what the look and feel of the site is going to be. Your client (client could be yourself) was very vague with their description of the design of their site and they did not give you any specific colors, fonts, or ui ideas.
 
@@ -18,7 +18,7 @@ Your job is to build a mood board based on a vague description (which you will d
 
 - 2 Color palettes (3-5 colors per palette)
   - include shades of white and black
-  - 1 primary, 1 secondary color 
+  - 1 primary, 1 secondary color
 - Typography (2-3 type faces per group)
   - should be chosen by you
 - Screenshots of user interface (ui) elements on at least 2 websites
