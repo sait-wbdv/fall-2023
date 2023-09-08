@@ -5,7 +5,7 @@
   import PageHeader from "$lib/components/PageHeader.svelte";
   export let data;
 
-  const course = $courses.find((item) => item.code === $page.params.code);;
+  const course = $courses.find((item) => item.code === $page.params.code);
 </script>
 
 <PageHeader title={`${course.codeLabel} - ${course.title}`} description={course.excerpt} />
@@ -13,7 +13,10 @@
 <h2>Lesson Schedule</h2>
 <ul>
   {#each course.days as date, index}
-    <li><a href="{course.code}/day-{index + 1}">Day {index + 1} - {dayjs(date).format("MMMM D")}</a></li>
+    <li>
+      <a href="{course.code}/day-{index + 1}">Day {index + 1} - {dayjs(date).format("MMMM D")}</a>
+      <p>{course.excerpt}</p>
+    </li>
   {/each}
 </ul>
 
