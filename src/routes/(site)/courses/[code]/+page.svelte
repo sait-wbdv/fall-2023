@@ -16,10 +16,9 @@
       <li>
         <a
           href="{course.code}/day-{index + 1}"
-          class="h4 dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear"
+          class="h4 dark:hover:text-primary-500 dark:active:text-primary-300 hover:text-primary-700 active:text-primary-500 transition duration-150 ease-linear mb-4 block"
           >Day {index + 1} - {dayjs(date).format("MMMM D")}
         </a>
-        <p class="max-w-prose">{course.excerpt}</p>
       </li>
     {/each}
   </ul>
