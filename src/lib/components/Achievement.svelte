@@ -1,17 +1,13 @@
 <script>
   export let status;
-  export let dueDate = true;
+  export let dueDate = "Today at 3pm";
 </script>
-
+{#if status === "published"}
 <section id="achievement" class="achievement">
   <h2>Today's Achievement</h2>
   {#if dueDate}
-    <p>Due: <strong>Today at 3pm</strong> in Brightspace.</p>
+    <p>Due: <strong>{dueDate}</strong> in Brightspace.</p>
   {/if}
-
-  {#if status === "announced" || status === "published"}
-    <slot />
-  {:else}
-    <p>To be announced</p>
-  {/if}
+  <slot />
 </section>
+{/if}
