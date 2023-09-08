@@ -1,11 +1,12 @@
 <script>
   export let data;
 </script>
-
+<h2>{data.meta.code.replace('-', ' ').toUpperCase()}</h2>
 <h1>{data.meta.title}</h1>
-<p>Weight: {data.meta.points}%</p>
+<p><strong>Weight:</strong> {data.meta.points}%</p>
 {#if data.meta.due}
-  <p>Due: <time datetime="{data.meta.due}">{data.meta.due}</time></p>
+  <p><strong>Due:</strong> <time datetime="{data.meta.due}">{data.meta.due}</time></p>
+  <p><strong>Late Penalty:</strong> 10% deduction for each day late. Submissions will not be accepted more than three days late.</p>
 {:else}
   <p>Due: TBA</p>
 {/if}

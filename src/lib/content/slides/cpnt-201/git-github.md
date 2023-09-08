@@ -45,7 +45,7 @@ Git keeps track of each line of code in your project, including:
 ### How does it work?
 
 A typical sequence of events in a developer's day, they:
-1. Will makes changes to code on their local repo;
+1. Will make changes to code on their local repo;
 2. `add` the changes to "staging";
 3. `commit` the changes to save a "snapshot" of the project;
 4. `push` the changes to a Remote Repo (i.e. GitHub) when the changes are ready to be shared or deployed.
