@@ -43,3 +43,48 @@
 		{/if}
 	</div>
 </div>
+
+<style>
+	.reveal .slides {
+		font-size: 32px;
+		text-align: left;
+	}
+
+	body .reveal .slides h1 {
+		font-size: 3em;
+	}
+
+	body .reveal .slides h2 {
+		font-size: 2em;
+	}
+
+	h1, h2 {
+		text-align: center;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-variant: small-caps;
+	}
+	
+	dd {
+		margin-bottom: 2rem;
+	}
+	.reveal pre code {
+		padding: 1rem;
+	}
+	.code {
+		font-family:'Courier New', Courier, monospace;
+		font-size: 2.5rem;
+		white-space: nowrap;
+		color: grey;
+	}
+	.code strong {
+		color: black;
+	}
+
+	.code.no-bullet {
+		list-style: none;
+		padding-left: 0;
+	}
+
+</style>
