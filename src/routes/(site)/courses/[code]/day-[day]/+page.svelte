@@ -11,7 +11,9 @@
 <nav class=" page-nav my-6 container lg:mx-auto">
   <ul class="flex justify-around lg:justify-between list-none">
     {#if lesson.prev}
-      <li><a href="/courses/{lesson.prev}" class="btn variant-filled rounded-md no-underline" target="_self">Prev</a></li>
+      <li>
+        <a href="/courses/{lesson.prev}" class="btn variant-filled rounded-md no-underline" target="_self">Prev</a>
+      </li>
     {:else}
       <li><span class="btn varient-outline rounded-md">Prev</span></li>
     {/if}
@@ -20,7 +22,9 @@
       <p>{lesson.codeLabel} - Day {lesson.day}</p>
     </li>
     {#if lesson.next}
-      <li><a href="/courses/{lesson.next}" class="btn variant-filled rounded-md no-underline" target="_self">Next</a></li>
+      <li>
+        <a href="/courses/{lesson.next}" class="btn variant-filled rounded-md no-underline" target="_self">Next</a>
+      </li>
     {:else}
       <li><span class="btn varient-outline rounded-md">Next</span></li>
     {/if}
@@ -33,7 +37,7 @@
 {:else}
   <header class="my-4 lg:my-6 mx-4">
     <h1 class="h1 mb-2">{lesson.title}</h1>
-    <p>{lesson.excerpt}</p>
+    <p class="max-w-prose">{lesson.excerpt}</p>
   </header>
   <div class="flex justify-between">
     <article class="mx-4 container">
