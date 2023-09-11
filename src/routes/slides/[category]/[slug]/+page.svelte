@@ -46,7 +46,7 @@
 
 <style>
 	.reveal .slides {
-		font-size: 22px;
+		font-size: 28px;
 		text-align: left;
 	}
 
