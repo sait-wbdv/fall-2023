@@ -25,7 +25,7 @@ The content should make sense and be of potential value to the (hypothetical) re
 ## Instructions and Rubric
 1. Write at least 200 words on your topic;
 2. Use valid HTML and CSS to make a column of [flow content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content);
-3. Place your content in a validated HTML file named `index.html` (CSS may be embedded in a `style` element in the `head` of `index.html`).
+3. Place your content in a validated HTML file named `index.html` that's linked to an external stylesheet.
 
 **Each of the following requirements will be worth 2 points** for a total of 10 points. 
 
