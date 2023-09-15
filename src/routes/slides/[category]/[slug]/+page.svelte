@@ -29,7 +29,9 @@
 		deck.initialize();
 	});
 </script>
-
+<svelte:head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</svelte:head>
 <div class="reveal">
 	<div class="slides">
 		{#if data.type == 'md'}
@@ -46,7 +48,7 @@
 
 <style>
 	.reveal .slides {
-		font-size: 32px;
+		font-size: 28px;
 		text-align: left;
 	}
 
