@@ -28,7 +28,7 @@
         <svelte:fragment slot="content">
           {#each week as day}
             {#if day.type === "lesson" && day.status != "draft"}
-              <div class="bg-gradient-to-r from-error-300 to-primary-400 bg-clip-text text-transparent mt-1">
+              <div class="text-error-700 dark:text-warning-300 mt-1">
                 <time class="font-bold">{dayjs(day.date).format("dddd, MMM D")}</time>
               </div>
               <a
@@ -37,7 +37,7 @@
               >
                 <article class="{day.code} lesson">
                   <p>{day.code.toUpperCase().replace("-", " ")} - Day {day.day}</p>
-                  <h3 class="text-primary-300 h4">{day.title}</h3>
+                  <h3 class="text-primary-700 dark:text-primary-300 h4">{day.title}</h3>
                 </article>
               </a>
             {:else if day.status === "draft"}
