@@ -16,6 +16,7 @@ These are given special labels that a blind user can navigate to on a page. `<se
 
 ## Navigation best practices
 ```html
+<!-- index.html -->
 <nav>
   <ul>
     <li><a href="#">Home</a></li>
@@ -35,6 +36,7 @@ These are given special labels that a blind user can navigate to on a page. `<se
 ## Styling lists as navigation
 **Step 1**: Remove a list's bullets and left padding:
 ```css
+/* style.css */
 nav ul {
   list-style: none;
   padding-left: 0;
@@ -47,6 +49,7 @@ nav ul {
 
 **Step 2**: Make your links clickable by adding `padding` to the _link_ (not the list item). You will need to make you links block-level elements for this to work:
 ```css
+/* style.css */
 nav a {
   display: block;
   padding: 0.5rem 1rem;
@@ -59,6 +62,7 @@ nav a {
 
 **Step 3**: Add `:hover` states to add interaction for the user:
 ```css
+/* style.css */
 nav a:hover {
   background-color: black;
   color: white;
@@ -119,6 +123,7 @@ Source: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-
 The first step in creating a horizontal nav bar is to create a Flex Container on the `<ul>`:
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
 }
@@ -136,6 +141,7 @@ Which will create the default layout:
 You can justify the links to the opposite end with `justify-content: flex-end`:
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -152,6 +158,7 @@ Which will create the following layout:
 You can centre the links in the menu with `justify-content: center`:
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
   justify-content: center;
@@ -168,6 +175,7 @@ Which will create the following layout:
 You can put all empty space between the links:
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -184,6 +192,7 @@ Which will create the following layout:
 You can put an equal amount of space between each link (half-space on ends):
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -200,6 +209,7 @@ Which will create the following layout:
 You can space the link equally, including ends, with:
 
 ```css
+/* style.css */
 nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -216,6 +226,7 @@ Which will create the following layout:
 You can have the links expand to fill all emtpy space with:
 
 ```css
+/* style.css */
 /* container */
 nav ul {
   display: flex;
