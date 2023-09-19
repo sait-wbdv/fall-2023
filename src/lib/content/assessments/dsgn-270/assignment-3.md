@@ -1,6 +1,7 @@
 ---
 title: Assignment 3 - Webpage Mockup
 excerpt: Create a high resolution mockup of a web page in Figma.
+type: assignment
 points: 25
 status: published
 ---
