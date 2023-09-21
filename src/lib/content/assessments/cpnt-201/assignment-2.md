@@ -38,12 +38,15 @@ While pair coding, each of you should resolve a merge conflict.
 
 Note: Although you will complete this assignment with a partner(s), this will be marked as an individual assignment. Each you will have to upload a submission to Brightspace.
 
-Once you've completed your pair-code session, each of you has resolved a merge conflict and pushed your up-to-date code to GitHub:
+Once you've completed your pair-code session, each of you has resolved **TWO** merge conflicts and pushed your up-to-date code to GitHub:
 
 - Download a ZIP of the repo from GitHub and submit to Brightspace;
 - As a comment on the submission:
   - add a link to the repo you created with your partner(s);
-  - add links to the specific commits that YOU pushed to resolve the conflict (it has two parents listed).
+  - add links to the specific commits that YOU pushed to resolve the conflict ([example commit](https://github.com/acidtone/commit-catch-and-cocktails/commit/8d22f5535466e6b4702dbd23fbe312ca0ac85908)):
+    - it has two parents listed.
+    - "Resolved conflict" is in the commit message
+    - There is no left over text from VS Codes merge wizard
 
 ## Marking Rubric
 
@@ -52,7 +55,7 @@ Once you've completed your pair-code session, each of you has resolved a merge c
    - repo has an owner and with the other partner(s) listed as a collaborator(s);
    - repo contains at least two alternating commits (NOT including the resolved conflict below) from each partner (four commits at minimum; six for a group of three) within the same time period (i.e. during a pair coding session).
 2. 2 Merge Commits: 15 Points
-   - A link to the specific merge commit is provided with submission.
+   - Two links to the specific merge commits are provided with submission.
    - The commit has two parents.
    - The commit has the message "Resolved conflict".
    - The resolving commit was pushed by YOU (i.e. each of you needs to resolve a conflict to receive marks for their submission).
