@@ -16,7 +16,7 @@ export const dsgn270DueDates = [
   },
   {
     slug: "graded-activities",
-    due: "Due @ 11:59 on specific days",
+    due: "Due @ 11:59PM on specific days",
     status: "published",
   },
 ];

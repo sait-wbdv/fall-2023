@@ -1,6 +1,7 @@
 ---
 title: Graded Activities
 excerpt: These are smaller assignments that help develop the skills needed for success in the assignments
+type: assignment
 points: 40
 status: published
 ---
