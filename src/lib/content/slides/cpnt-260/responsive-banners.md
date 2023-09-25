@@ -4,29 +4,6 @@
 
 ---
 
-## Banners with Nested Flexboxes
-### Key Takeaways
-- Flexbox/Grid Items can also be Flex/Grid Containers;
-- Nested containers are often used to layout primary navigation with site logos/titles;
-- Common banner layout pattern for internal pages:
-    ![Example banner for program website](/images/css/page-banner.png)
-
----
-
-## Nested Example
-The program website uses two nested Flexboxes (actually more) in its banner:
-
-Outer Flexbox:
-![Banner flex inspector](/images/css/outer-flexbox.png)
-
-Logo/Site title Flexbox:
-![Site title flex inspector](/images/css/site-title-flexbox.png)
-
-Navigation Flexbox:
-![Navigation flex inspector](/images/css/nav-flexbox.png)
-
----
-
 ## Dealing with overflow
 You usually want to avoid horizontal overflow on a page. This is a common problem with navigation on mobile:
 
@@ -93,6 +70,30 @@ A common mobile pattern is to use a button toggle:
 ![Example of open nav menu](/images/css/toggle-open.png)
 
 See: [Create a responsive navigation nav with no JS!](https://www.youtube.com/watch?v=8QKOaTYvYUA) by Kevin Powell
+
+---
+
+
+## Banners with Nested Flexboxes
+### Key Takeaways
+- Flexbox/Grid Items can also be Flex/Grid Containers;
+- Nested containers are often used to layout primary navigation with site logos/titles;
+- Common banner layout pattern for internal pages:
+    ![Example banner for program website](/images/css/page-banner.png)
+
+---
+
+## Nested Example
+The program website uses two nested Flexboxes (actually more) in its banner:
+
+Outer Flexbox:
+![Banner flex inspector](/images/css/outer-flexbox.png)
+
+Logo/Site title Flexbox:
+![Site title flex inspector](/images/css/site-title-flexbox.png)
+
+Navigation Flexbox:
+![Navigation flex inspector](/images/css/nav-flexbox.png)
 
 ---
 
