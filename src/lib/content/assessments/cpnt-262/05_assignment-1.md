@@ -61,6 +61,7 @@ The objective of this assignment is to be a final chance to sharpen and demonstr
 - JS is in 'use strict' mode
 - Code indentation and whitespace has been well organized
 - Minimal error handling is used in functions
+- Code has been pushed in at least 4 commits with descriptive and accurate commit messages
 
 <h2>Submission Instructions</h2>
 
