@@ -81,7 +81,7 @@ In addition to the standard requirements, include the following in your `README.
 ---
 
 ## Submission Requirements
-- Push this assignment to a GitHub repo named `cpnt260-a4` and enable GitHub Pages;
+- Push this assignment to a GitHub repo named `cpnt260-a3` and enable GitHub Pages;
 - ZIP all files required for the site to operate and submit to Brightspace;
 - Include the following as a comment in your Brightspace submission:
   - GH repo
