@@ -17,11 +17,11 @@ export const cpnt262DueDates = [
   {
     slug: "activity-4-loops-and-conditionals",
     due: "Sunday October 22 @ 11:59PM",
-    status: "draft",
+    status: "announced",
   },
   {
     slug: "assignment-1-bring-a-page-to-life",
     due: "Monday October 30 @ 11:59PM",
-    status: "draft"
+    status: "announced"
   }
 ];

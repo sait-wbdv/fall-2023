@@ -1,9 +1,9 @@
 ---
 title: Graded Activity 1 - Program in Scratch
 excerpt: Write a small program in the visual programming language Scratch.
-points: 5
+points: 10
 type: assignment
-status: announced
+status: published
 ---
 
 <h2>Overview</h2>
@@ -15,6 +15,10 @@ You are welcome to build any type of project that Scratch allows. Common choices
     - Game
     - Animation
     - Music video
+
+<h2>Instructions</h2>
+
+Create a project in scratch as noted above with the following requirements satisfied.
 
 ### Project Requirements
 
