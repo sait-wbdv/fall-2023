@@ -62,8 +62,7 @@ Build a page of valid HTML ([W3C HTML Validator](https://validator.w3.org/)) pag
 
 ### 3. Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
-- [ ] Navigation should never overflow horizontally off the screen:
-    - Use a media query to either display the navigation horizontally or replace the navigation with a menu toggle;
+- [ ] Use a media query to either display the navigation vertically or replace the navigation with a menu toggle;
 
 **Plus these**:
 - [ ] All navigation should be wrapped in a `<nav>` element;
