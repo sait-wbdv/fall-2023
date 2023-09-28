@@ -34,17 +34,16 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 - Content is rendered in the console or on a page (except for those specified above as visual)
 - Proper use of casing
 - Proper use of whitespace and intendation
-- Your algorithmic process is noted in comments
-
+- Your algorithmic process is outlined in comments
 
 <h2>Submission Instructions</h2>
 
 1. As a comment in D2L: share links to make it easy for the instructor to quickly evaluate your work:
-    - GH repos, Pages, Projects (Beta), etc.
-    - Codepens, Figma, FigJam, etc.
+   - GH repos, Pages, Projects (Beta), etc.
+   - Codepens, Figma, FigJam, etc.
 2. Double check the Activity for specific instructions.
 3. If applicable, include a README containing the following;
-    - Activity name and author;
-    - Attributions: Did anyone help you? Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
-    - Include self-assessments, observations, research, etc under the heading “Code Journal” in your README.
+   - Activity name and author;
+   - Attributions: Did anyone help you? Give credit to any classmates, articles, tutorials, etc that helped you complete this project.
+   - Include self-assessments, observations, research, etc under the heading “Code Journal” in your README.
 4. Zip project repo and submit it.
