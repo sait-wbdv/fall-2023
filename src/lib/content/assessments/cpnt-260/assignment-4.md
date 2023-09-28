@@ -66,7 +66,7 @@ Your content should be responsive and accessible to screen readers:
 
 **Plus these**:
 - [ ] All navigation should be wrapped in a `<nav>` element;
-    - `<nav>` should be nested inside a `<header>`
+    - `<nav>` can be nested inside a `<header>`
 - [ ] The page has a `<title>` in the `<head>`;
 - [ ] Main page content is wrapped in a `<main>` container;
 - [ ] Footer content is wrapped in a `<footer>` container at the bottom of the page;
