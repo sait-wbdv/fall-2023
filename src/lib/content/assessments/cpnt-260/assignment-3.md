@@ -25,6 +25,7 @@ The goal of this assignment is to build a Hero Section that directs the user to 
 **Each of the following requirements will be worth 2 points** for a total of 10 points.
 
 ## 1. Content
+- [ ] **New**: Leave some content under the `<header>` so that the page can scroll. It can be anything;
 - [ ] Display and Text fonts should not be default and have proper fallbacks;
 - [ ] If HTML images are used, they cannot be distorted and should scale to fit the design;
 - [ ] `font-size` and `line-height` should be larger than browser defaults;
