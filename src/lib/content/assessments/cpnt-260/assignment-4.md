@@ -46,29 +46,31 @@ Build a horizontal primary navigation menu that:
 - [ ] includes a logo and/or site name;
 - [ ] is accessible (see below);
 - [ ] uses colour and the box model to make links obviously and easily clickable;
+- [ ] **highlights the current page** by displaying the link differently than the others;
 - [ ] uses a `<ul>` as a flex container and `<li>` as items;
 - [ ] justify the links to fit your design.
 
-### 2. Content and footer
+### 2. Content and Techniques
 Build a page of valid HTML ([W3C HTML Validator](https://validator.w3.org/)) page content and with a footer:
 - Page content:
     - [ ] Content that matches the theme of your page (you may use content from openly licensed sources, previous assignments or sample code given in);
+    - [ ] Use a diverse mix of elements and techniques learned in this course.
+    - [ ] Incorporate content and techniques not taught in this course.
 - Footer:
     - [ ] Copyright year with `&copy;` HTML entity;
     - [ ] Site owner;
 
 ### 3. Responsiveness and Accessibility
 Your content should be responsive and accessible to screen readers:
+- [ ] Use a media query to either display the navigation vertically or replace the navigation with a menu toggle;
+
+**Plus these**:
 - [ ] All navigation should be wrapped in a `<nav>` element;
-    - `<nav>` should be nested inside a `<header>`
-- [ ] Navigation should never overflow horizontally off the screen:
-    - `flex-wrap` is a good place to start;
+    - `<nav>` can be nested inside a `<header>`
 - [ ] The page has a `<title>` in the `<head>`;
 - [ ] Main page content is wrapped in a `<main>` container;
 - [ ] Footer content is wrapped in a `<footer>` container at the bottom of the page;
 - [ ] The page content is a readable size and not touch the edge of any boundary (such as a background colour change).
-
-**Plus these**:
 - [ ] Line length should not exceed 40 characters on wide screens;
 - [ ] No horizontal scroll bars should be visible at any device screen width;
 - [ ] On mobile, content should be at least `1rem` away from the edge of the screen;
@@ -76,11 +78,9 @@ Your content should be responsive and accessible to screen readers:
 
 ### 4. Above and Beyond
 Show off your coding skills by using ONE (use of more than one does not guarantee more marks) of the following:
-- add a social navigation menu, OR;
+- add a social navigation menu in the footer, OR;
 - incorporate an inline SVG image for your company logo, OR;
-- Google Map in the footer, OR;
-- add your primary navigation to the footer.
-    - it shouldn't look like primary navigation.
+- Google Map in the footer.
 
 Provide a clear indication of which option you've chosen in your README (see below):
 - Which did you choose?
