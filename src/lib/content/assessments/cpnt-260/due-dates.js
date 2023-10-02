@@ -26,7 +26,7 @@ export const cpnt260DueDates = [
   },
   {
     slug: 'final-project',
-    due: 'TBA',
-    status: 'draft'
+    due: 'Tuesday October 10 @ 11:59pm',
+    status: 'published'
   }
 ]
