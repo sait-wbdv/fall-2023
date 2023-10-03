@@ -1,7 +1,7 @@
 ---
 title: Graded Activity 1 - Program in Scratch
 excerpt: Write a small program in the visual programming language Scratch.
-points: 10
+points: 5
 type: assignment
 status: published
 ---
@@ -10,11 +10,7 @@ status: published
 
 The goal of this activity is to familiarize with basic programming concepts by using a visual building block style programming language called Scratch. This will be the only Scratch based activity in this program and will serve as a metaphor for learning Javascript.
 
-You are welcome to build any type of project that Scratch allows. Common choices are:
-    - Interactivty story
-    - Game
-    - Animation
-    - Music video
+You are welcome to build any type of project that Scratch allows. Common choices are: - Interactivty story - Game - Animation - Music video
 
 <h2>Instructions</h2>
 
@@ -26,12 +22,13 @@ Create a project in scratch as noted above with the following requirements satis
 - At least 3 scripts (in total)
 - At least 1 conditional
 - At least 1 loop
-- At least 1 variable 
+- At least 1 variable
 - Use at least 1 custom block that takes an input
 
 #### **NOTE**: You should use a few dozen puzzle pieces overall to achieve these requirements successfully
 
 ### Code Quality
+
 - The code works and the output (game/animation/story) is reasonably coherent
 - Use custom blocks with clear descriptive names when sequences get too long (ie: containing multiple steps and actions that aren't actually dependent on one another)
 
@@ -39,11 +36,14 @@ Create a project in scratch as noted above with the following requirements satis
 
 <h2>Rubric</h2>
 
-### 5 Points: Required Content Usage
+### 3 Points: Content
+
 - Required elements are present and logically used
 - Block settings and content have been changed to make sense with the content
 - Storyline is bigger than a simple hello world type example
-### 5 Points: Code Quality
+
+### 2 Points: Code Quality
+
 - Scripts run when expected
 - If user input is required, it's clear when and how to do so
 - Correct blocks are chosen for the use case

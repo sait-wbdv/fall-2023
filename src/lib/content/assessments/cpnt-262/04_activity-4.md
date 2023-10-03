@@ -1,7 +1,7 @@
 ---
 title: Graded Activity 4 - Loops and Conditionals
 excerpt: Create conditional statements to render data in specific conditions. Use loops to access lists of content.
-points: 10
+points: 5
 type: assignment
 status: published
 ---
@@ -27,11 +27,14 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 
 <h2>Rubric</h2>
 
-### 5 Points Per Challenge (2 Challenges)
+### Content: 3 points
 
 - Use of a conditional in one solution
 - Use of a loop in one solution
 - Content is rendered in the console or on a page (except for those specified above as visual)
+
+### Code Quality: 2 Points
+
 - Proper use of casing
 - Proper use of whitespace and intendation
 - Your algorithmic process is outlined in comments
