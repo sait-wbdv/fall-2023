@@ -70,7 +70,7 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 
 <h2>Rubric</h2>
 
-### 3 Points: Content
+### 3 Points: Applied Content
 
 - Code Journal Entry
 - At least 3 Number Methods

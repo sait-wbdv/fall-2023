@@ -1,3 +1,4 @@
+// slug needs to match the filename of the assessment content, minus file extension
 export const dsgn270DueDates = [
   {
     slug: "assignment-1",
