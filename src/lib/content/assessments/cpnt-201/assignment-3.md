@@ -41,7 +41,7 @@ Use at least THREE Tailwind modifiers to conditionally activate a utility class.
 - [`first:`](https://tailwindcss.com/docs/hover-focus-and-other-states#first)
 - [`last:`](https://tailwindcss.com/docs/hover-focus-and-other-states#last)
 - [`only:`](https://tailwindcss.com/docs/hover-focus-and-other-states#only)
-- [`even:`](https://tailwindcss.com/docs/hover-focus-and-other-states#even)/[`:odd`](https://tailwindcss.com/docs/hover-focus-and-other-states#odd),
+- [`even:`](https://tailwindcss.com/docs/hover-focus-and-other-states#even)/[`odd:`](https://tailwindcss.com/docs/hover-focus-and-other-states#odd),
 - etc.
 
 See the [Pseudo-class Reference](https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-class-reference) for a complete list of available pseudo-classes.
