@@ -30,17 +30,6 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 
 <h2>Rubric</h2>
 
-<<<<<<< HEAD
-### Content: 3 points
-
-- Use of a conditional in one solution
-- Use of a loop in one solution
-- Content is rendered in the console or on a page (except for those specified above as visual)
-
-### Code Quality: 2 Points
-
-- Proper use of casing
-=======
 ### 3 Points (Code Content)
 
 - Use of a conditional in one solution
@@ -51,7 +40,6 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 
 Proper use of casing
 
->>>>>>> cb7877ab516941a314a3eba65cc1f7b504c33925
 - Proper use of whitespace and intendation
 - Your algorithmic process is outlined in comments
 

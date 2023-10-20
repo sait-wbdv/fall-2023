@@ -17,11 +17,7 @@ export const cpnt262DueDates = [
   },
   {
     slug: "activity-4",
-<<<<<<< HEAD
-    due: "",
-=======
     due: "Tuesday October 24 @ 11:59PM",
->>>>>>> cb7877ab516941a314a3eba65cc1f7b504c33925
     status: "published",
   },
   {
