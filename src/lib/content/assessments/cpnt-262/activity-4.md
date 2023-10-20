@@ -15,6 +15,7 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 - Use at least 1 loop and 1 conditional while solving 2 of these challenges
   - [Use loops highlighted here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
   - Use if/else or ternary operators for conditionals
+    - else should be used as necessary
 
 ### Challenges
 
@@ -24,9 +25,12 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 - Remove all falsey values from an array (must include `false`, and `0`)
 - Title Case a sentence (all words get capitalized for their first letter)
 - Render a set of objects based on the truthiness of one of the key-value pairs (visual & logical)
+- Draw 2 shapes with characters (leet code like challenges)
+  - ie: star pyramid, star hollow square
 
 <h2>Rubric</h2>
 
+<<<<<<< HEAD
 ### Content: 3 points
 
 - Use of a conditional in one solution
@@ -36,6 +40,18 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 ### Code Quality: 2 Points
 
 - Proper use of casing
+=======
+### 3 Points (Code Content)
+
+- Use of a conditional in one solution
+- Use of a loop in one solution
+- Content is rendered on a page
+
+### 2 Points (Code )
+
+Proper use of casing
+
+>>>>>>> cb7877ab516941a314a3eba65cc1f7b504c33925
 - Proper use of whitespace and intendation
 - Your algorithmic process is outlined in comments
 

@@ -12,12 +12,16 @@ export const cpnt262DueDates = [
   },
   {
     slug: "activity-3",
-    due: "Friday October 13 @ 11:59PM",
+    due: "Friday October 15 @ 11:59PM",
     status: "published",
   },
   {
     slug: "activity-4",
+<<<<<<< HEAD
     due: "",
+=======
+    due: "Tuesday October 24 @ 11:59PM",
+>>>>>>> cb7877ab516941a314a3eba65cc1f7b504c33925
     status: "published",
   },
   {
@@ -43,6 +47,6 @@ export const cpnt262DueDates = [
   {
     slug: "assignment-1",
     due: "Monday October 30 @ 11:59PM",
-    status: "announced",
+    status: "published",
   },
 ];

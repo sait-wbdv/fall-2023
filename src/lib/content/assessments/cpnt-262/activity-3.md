@@ -10,8 +10,6 @@ status: published
 
 In this activity, we will develop our understanding of how to use objects and arrays effectively. You will need to create an array and an object and render content from them by using their respective methods.
 
-You will **not** need to render the content in HTML or deploy to github pages for this; however, you will need to import the client.js file into the index.html file.
-
 <h2>Instructions</h2>
 
 1. Create a new github repo
@@ -20,8 +18,10 @@ You will **not** need to render the content in HTML or deploy to github pages fo
    - client.js
    - README.md
 3. Set up your HTML file and import the `client.js` file in the head tag with a defer attribute added
-4. Add and console.log() values from your object and array methods
-5. In your comments, note whether or not the method used **mutates** the original variable
+4. Create an array and a few objects
+5. use array and object methods to extract specific information to render
+6. render variables onto your html page
+7. In your comments, note a practical use case for the code that you've used (what you've done doesn't need to necessarily be a full version)
 
 ### Display and/or modify your array with 3 of the following methods
 
@@ -47,9 +47,9 @@ You will **not** need to render the content in HTML or deploy to github pages fo
 
 ### 3 Points: Content Application
 
-- Code Journal Entry
-- At least 3 Array Methods
-- At least 3 Object Methods
+- A note on potential practical use cases for each render
+- 3 Array Methods
+- 2 Object Methods
 - README journal entry
 
 ### 2 Points: Code Quality
