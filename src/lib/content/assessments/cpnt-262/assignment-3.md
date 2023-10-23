@@ -9,7 +9,7 @@ type: assignment
 
 Working in teams of 3-4, create a multi page website in sveltekit that uses client and server routes as well a the skeletonUI component framework (and custom components when necessary).
 
-Your task is to build a website for something (it can be anything). The site should include 4 web pages of your choosing.
+Your task is to build a website for something (it can be anything). The site should include 4 web pages of your choosing. However it must include
 
 <h2>Instructions</h2>
 
@@ -28,7 +28,7 @@ Your task is to build a website for something (it can be anything). The site sho
 - SkeletonUI components are used correctly
 - At least 2 custom smart components are used (these should manage data)
 
-### 5 Points: Team Organization and Project Management
+### 5 Points: Team Requirements and Project Management
 
 - A site wireframe has been sketched
 - Team uses kanban board to organize tasks
@@ -36,6 +36,7 @@ Your task is to build a website for something (it can be anything). The site sho
 - Code is moved to the main branch in Pull Requests from Feature branches
 - All team members are attributed in the README (with links to each team member's github account)
 - Everyone has been added to the github repo
+-
 
 ### 5 Points: Team Score
 
@@ -45,6 +46,8 @@ Your task is to build a website for something (it can be anything). The site sho
   - communication skills
   - fulfilling tasks assigned/chosen
   - usefulness of what they bring to the team
+
+### Overall Team Requirements
 
 ---
 
