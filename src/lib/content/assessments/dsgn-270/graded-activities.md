@@ -89,6 +89,8 @@ In Figma, create a reusable card component and use it to render content for 3 di
 
 <h2>Conduct a User Test</h2>
 
+### Due: November
+
 ### Instructions
 
 1. Pick a website to test (it can be yours or a live publically accessible site)
