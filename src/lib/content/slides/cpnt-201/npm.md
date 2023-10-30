@@ -43,7 +43,6 @@ The best tools have recursive names
     $ node <path-to-js-file>
     ```
 - Node will not run browser-specific code like `document.querySelector()`
-- We will be using Node in our examples today but it won't be used a lot in this program.
 
 ---
 
@@ -84,6 +83,8 @@ As of July 2019:
     ```shell
     $ npm install <package-name>
     ```
+    - Some packages are installed as [Development Dependencies](https://www.knowledgehut.com/blog/web-development/npm-install-dev-dependencies)
+
 3. Include the package in your project by following the package's documentation.
 
 ---
@@ -230,9 +231,15 @@ const express = require('express');
 - `require()` will not work in the browser.
 
 --- 
+
 ES Modules
 ```js
 import Reveal from 'reveal.js';
 ```
 
 - `import` will work in Node but the software has to support it.
+- `package.json` needs to have a `type` of `module` in order to use ES Modules
+
+---
+
+## Further Learning
