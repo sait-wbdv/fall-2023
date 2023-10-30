@@ -22,27 +22,27 @@ export const cpnt262DueDates = [
   },
   {
     slug: "activity-5",
-    due: "",
-    status: "announced",
+    due: "Sunday November 5 @ 11:59PM",
+    status: "published",
   },
   {
     slug: "activity-6",
-    due: "",
-    status: "announced",
-  },
-  {
-    slug: "activity-7",
-    due: "",
-    status: "announced",
-  },
-  {
-    slug: "activity-8",
-    due: "",
-    status: "announced",
+    due: "Friday November 10 @ 11:59PM",
+    status: "published",
   },
   {
     slug: "assignment-1",
-    due: "Monday October 30 @ 11:59PM",
+    due: "Tuesday October 31 @ 11:59PM",
     status: "published",
+  },
+  {
+    slug: "assignment-2",
+    due: "Wednesday November 15 @ 11:59PM",
+    status: "announced",
+  },
+  {
+    slug: "assignment-3",
+    due: "Wednesday November 22 @ 11:59PM",
+    status: "announced",
   },
 ];

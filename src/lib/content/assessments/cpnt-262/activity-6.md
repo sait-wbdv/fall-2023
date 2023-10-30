@@ -1,43 +1,85 @@
 ---
-title: Graded Activity 6 - Create a layout
-excerpt: Create and apply a layout in svelte
-points: 5
+title: Assignment 6 - Reactivity and Events
 type: assignment
+points: 10
 ---
 
-## Outline
+Reactivity is a key feature of web frameworks. Create a svelte app that updates data and uses component events.
 
-Complex web pages and apps often use multiple layouts. These will wrap around content such as blog posts or product pages and create a consistent, maintainable site design.
+1. Scaffold a new sveltekit app
+2. On the index page, create an array of objects and render it to the page
+   - then add input fields for new values to be added
+   - set up a button that will add the values to the array and update the DOM
+   - use an event modifier (you can use a second button for this example if it makes more sense)
+3. Create a component that **dispatches** an event
+   - your event should render onto the page
+   -
+4. Create another component that wraps around the component in step 3
+   - use forwarding so that the inner event can be triggered from the page
+   - Add a prop (ie: a title) to the outer component and apply that on the page
+5. Create an inline event handler
+   - use this to manipulate css
 
-## Instructions
+### Note: data can be stored in arrays on the page
 
-- Duplicate and rename your activity 5
-- Using [skeletonUI](https://www.skeleton.dev/) components or your own html markup, create a page layout of your choosing
-- Styling should be edited a little bit with tailwind css utility classes (1-5 classes in your layout is enough if you're using skeleton components)
-- Add a `<slot />` for where the content will render
-- Create a page that has a unique title on it
-- Set the page to use your custom layout
+---
 
-## Rubric
+## Marking Rubric
 
-### Essential Requirements
+Each of the following will be **worth 2 points for a total of 10 points**:
 
-- `node_modules/` directory **not** in github remote repo **or** zipped directory
+### Reactivity and Data Updates
 
-### 3 Points: Layout Setup
+- Data updates and renders its respective updates
+- Up to date syntax is used
 
-- at least 3 layout elements (header, footer, nav...)
-- something edited with tailwindcss utility classes
-- slot used to render content in a logical place for the layout
+### Functions
 
-### 2 Points: Code Quality
+- Code is organized into specific functions
+- Functions are designed in a reusable way
 
-- Code works and renders
-- indentation and spacing
-- PascalCase for filenames, camelCase for variable names, kebab-case for html markup
+### Inline Event Handler
 
-## Submission
+- Correct syntax is used
+- The use case is something that would likely be used only once
 
-- Your project needs to be in a github repo
-- Zip the repo and submit it to brightspace
-- In the Text box of your submission submit a link to the github repo
+### Component Event Dispatch
+
+- A function is executed using dispatch
+
+### Component Event Forwarding
+
+- The dispatch component is nested inside another component and input is passed from the page using forwarding
+- A prop is set on the outer component and changed on the page
+
+---
+
+**Points will be deducted for**:
+
+- Syntax and logic errors
+- Poor naming conventions
+
+---
+
+## Submission Instructions
+
+- Push this assignment to a GitHub repo named `cpnt262-a6` and deploy to Vercel or similar platform;
+- ZIP all files required for the site to operate and submit to Brightspace;
+- Include the following as a comment in your Brightspace submission:
+  - GH repo
+  - Live deploy link
+
+### Submission requirements
+
+Points will be deducted for failing to fulfill the following:
+
+- Include a `README.md` in your project that contains the following information:
+  - Course title;
+  - Assignment name;
+  - Author name;
+  - A link to the deployed site;
+  - **(new)** Search research notes:
+    - for 1-3 things that you needed to look up, document and optimize your search
+    - [Use this document as a guide](https://gist.github.com/lilyx13/4a2f49d1cdb29cfc624ef22c6ccedafe)
+  - List the author and links to any Attributions for code and/or assets you used that are not your own;
+- Follow guidelines in [Files and Directories - Naming Conventions](https://gist.github.com/acidtone/d77059ec1851eff266339a3df70f6984)
