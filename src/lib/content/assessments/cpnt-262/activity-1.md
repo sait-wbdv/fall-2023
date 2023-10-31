@@ -36,13 +36,13 @@ Create a project in scratch as noted above with the following requirements satis
 
 <h2>Rubric</h2>
 
-### 5 Points: Required Content Usage
+### 3 Points: Content
 
 - Required elements are present and logically used
 - Block settings and content have been changed to make sense with the content
 - Storyline is bigger than a simple hello world type example
 
-### 5 Points: Code Quality
+### 2 Points: Code Quality
 
 - Scripts run when expected
 - If user input is required, it's clear when and how to do so

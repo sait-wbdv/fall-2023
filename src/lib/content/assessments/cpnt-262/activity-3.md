@@ -52,7 +52,7 @@ In this activity, we will develop our understanding of how to use objects and ar
 - 2 Object Methods
 - README journal entry
 
-### 5 Points: Code Quality
+### 2 Points: Code Quality
 
 - Uses camelCase correctly
 - Spacing and Indentation
