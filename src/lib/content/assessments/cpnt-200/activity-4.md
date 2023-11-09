@@ -1,5 +1,5 @@
 ---
 title: SQL Syntax Test
 type: assignment
-points: 15
+points: 10
 ---
