@@ -21,8 +21,6 @@ points: 10
 
 ### 2 Points: JSON Data
 
-<<<<<<< HEAD
-
 - Create a json file and map of content from one of your web pages from a past assignment
   - use a combination of arrays and objects dependingon the data
   - group by h2 headings
@@ -77,4 +75,3 @@ points: 10
 - Submit a link to your repo
 - Submit a link to the live site
 - Submit a zipped folder of your project
-  > > > > > > > 75c129ed0158f1caad31b29c04175dbeb7093af8
