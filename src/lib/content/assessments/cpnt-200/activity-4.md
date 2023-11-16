@@ -1,7 +1,7 @@
 ---
 title: SQL Syntax Test
 type: assignment
-points: 10
+points: 15
 ---
 
 ## Mutliple Choice Test
