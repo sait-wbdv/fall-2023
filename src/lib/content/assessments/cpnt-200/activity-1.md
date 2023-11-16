@@ -33,7 +33,7 @@ points: 10
   - one of thos columns should be a unique id integer
   - no spaces (use underscores)
   - no capitals in column names
-  - it should have 8-10 rows
+  - it should have 10 rows
 
 ### 2 Points: Postman API Calls
 

@@ -1,5 +1,5 @@
 ---
-title: Assignment 3 - Content Management
+title: Assignment 3 - Content Management Configuration
 type: assignment
 points: 15
 ---
