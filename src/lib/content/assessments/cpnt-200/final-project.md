@@ -1,7 +1,7 @@
 ---
 title: Final Group Project - Blog Website
 type: assignment
-points: 35
+points: 45
 ---
 
 In this group assignment, you will work with your classmates to create a database-driven blog that features a GUI CMS.
