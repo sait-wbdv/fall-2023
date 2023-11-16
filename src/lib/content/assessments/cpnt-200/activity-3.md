@@ -1,11 +1,7 @@
 ---
-<<<<<<< HEAD
 title: Assignment 3 - Content Management Configuration
-=======
-title: Assignment 3 - Content Management
->>>>>>> 75c129ed0158f1caad31b29c04175dbeb7093af8
 type: assignment
-points: 15
+points: 20
 ---
 
 **Objectives**
