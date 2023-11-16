@@ -12,15 +12,15 @@ Reactivity is a key feature of web frameworks. Create a svelte app that updates 
    - set up a button that will add the values to the array and update the DOM
    - use an event modifier (you can use a second button for this example if it makes more sense)
 3. Create a component that **dispatches** an event
-   - your event should render onto the page
-   -
+   - The event should cause some change to render on the page
+   - The event should be made on the parent component or page and passed to an inner component
 4. Create another component that wraps around the component in step 3
-   - use forwarding so that the inner event can be triggered from the page
-   - Add a prop (ie: a title) to the outer component and apply that on the page
-5. Create an inline event handler
-   - use this to manipulate css
-
-### Note: data can be stored in arrays on the page
+   - The outer component should be a feature component
+   - Also use a prop on the outer component (something simple like a title is fine)
+   - **(optional extra challenge)** pass all of the content into the outer component from the page
+5. Create an inline event handler (separate from the one with nested components)
+   - use this to cause minor and one time changes on a web page
+   - examples are: to manipulate css, to toggle content, passive events
 
 ---
 
@@ -47,10 +47,10 @@ Each of the following will be **worth 2 points for a total of 10 points**:
 
 - A function is executed using dispatch
 
-### Component Event Forwarding
+### Readme and General Requirements
 
-- The dispatch component is nested inside another component and input is passed from the page using forwarding
-- A prop is set on the outer component and changed on the page
+- Repo information
+- Search tearms are documented
 
 ---
 
@@ -58,6 +58,7 @@ Each of the following will be **worth 2 points for a total of 10 points**:
 
 - Syntax and logic errors
 - Poor naming conventions
+- Broken code
 
 ---
 

@@ -21,6 +21,8 @@ points: 10
 
 ### 2 Points: JSON Data
 
+<<<<<<< HEAD
+
 - Create a json file and map of content from one of your web pages from a past assignment
   - use a combination of arrays and objects dependingon the data
   - group by h2 headings
@@ -51,4 +53,28 @@ points: 10
 - Submit a zip folder that includes the following:
   - 2 csv files
   - 1 json file
-  - 1 readme file
+  - # 1 readme file
+- JSON Data file syntax
+- Data has been imported and rendered on page
+
+### 2 Points: CSV Data
+
+- CSV table has been called into the server route
+- CSV data has been rendered onto the page
+
+### 2 Points: Postman API Cals
+
+- Postman API fetch is made correctly
+- API data recieved makes sense with your queries
+
+### 2 Points: README and General Requirements
+
+- Readme provides link to the API
+- README also includes your name and a link to the deployed site
+
+## Submission Instructions
+
+- Submit a link to your repo
+- Submit a link to the live site
+- Submit a zipped folder of your project
+  > > > > > > > 75c129ed0158f1caad31b29c04175dbeb7093af8
