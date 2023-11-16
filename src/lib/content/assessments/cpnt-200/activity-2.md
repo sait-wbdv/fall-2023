@@ -54,4 +54,7 @@ points: 10
 
 ## Submission Instructions
 
-- Submit a zipped folder with the assets
+- Submit a zipped folder with any resources
+  - csvfile
+  - a readme with queries included
+  - Screen shots of your admin panel
