@@ -43,35 +43,12 @@ points: 10
 
 ### 2 Points: README
 
-- Readme provides link to the API
+- Readme provides link to the API (landing plage)
 - Readme includes a list of the queries that you used to fetch data
 
 ## Submission Instructions
 
 - Submit a zip folder that includes the following:
-  - 2 csv files
+  - 1 csv files
   - 1 json file
-  - # 1 readme file
-- JSON Data file syntax
-- Data has been imported and rendered on page
-
-### 2 Points: CSV Data
-
-- CSV table has been called into the server route
-- CSV data has been rendered onto the page
-
-### 2 Points: Postman API Cals
-
-- Postman API fetch is made correctly
-- API data recieved makes sense with your queries
-
-### 2 Points: README and General Requirements
-
-- Readme provides link to the API
-- README also includes your name and a link to the deployed site
-
-## Submission Instructions
-
-- Submit a link to your repo
-- Submit a link to the live site
-- Submit a zipped folder of your project
+  - 1 readme file
