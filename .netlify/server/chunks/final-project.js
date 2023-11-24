@@ -2,12 +2,12 @@ import { c as create_ssr_component } from "./index3.js";
 const metadata = {
   "title": "Final Group Project - Blog Website",
   "type": "assignment",
-  "points": 35
+  "points": 45
 };
 const Final_project = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<p>In this group assignment, you will work with your classmates to create a database-driven blog that features a GUI CMS.</p>
 <p><strong>Grading</strong>:</p>
-<ul><li>Group mark: 30 points</li>
+<ul><li>Group mark: 40 points</li>
 <li>Peer evaluation: 5 points</li></ul>
 <hr>
 <h2 id="marking-rubric"><a aria-hidden="true" tabindex="-1" href="#marking-rubric"><span class="icon icon-link"></span></a>Marking Rubric</h2>

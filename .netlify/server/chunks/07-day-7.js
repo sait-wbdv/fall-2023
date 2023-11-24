@@ -3,7 +3,7 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "SQL Test and Open Lab",
+  "title": "SQL Test & Final Project",
   "excerpt": null,
   "status": "announced"
 };
@@ -16,9 +16,11 @@ const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   })}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2 id="housekeeping"><a aria-hidden="true" tabindex="-1" href="#housekeeping"><span class="icon icon-link"></span></a>Housekeeping</h2>
+      return `<h2>SQL Syntax Review</h2>
 <hr>
-<h2 id="topic-1"><a aria-hidden="true" tabindex="-1" href="#topic-1"><span class="icon icon-link"></span></a>Topic 1</h2>`;
+<h2>SQL Syntax Test</h2>
+<hr>
+<h2>Work on Final Project</h2>`;
     }
   })}
 ${validate_component(Achievement, "Achievement").$$render($$result, { status }, {}, {})}`;

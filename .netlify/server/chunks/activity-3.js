@@ -1,8 +1,8 @@
 import { c as create_ssr_component } from "./index3.js";
 const metadata = {
-  "title": "Assignment 3 - Content Management",
+  "title": "Assignment 3 - Content Management Configuration",
   "type": "assignment",
-  "points": 15
+  "points": 20
 };
 const Activity_3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<p><strong>Objectives</strong></p>

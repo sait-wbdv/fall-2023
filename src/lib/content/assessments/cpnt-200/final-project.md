@@ -8,7 +8,7 @@ In this group assignment, you will work with your classmates to create a databas
 
 **Grading**:
 
-- Group mark: 30 points
+- Group mark: 40 points
 - Peer evaluation: 5 points
 
 ---

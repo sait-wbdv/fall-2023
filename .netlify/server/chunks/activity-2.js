@@ -36,7 +36,9 @@ const Activity_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =
 <ul><li>links to images open image files or show images in markdown</li>
 <li>Endpoint exists and is correct</li></ul>
 <h2 id="submission-instructions"><a aria-hidden="true" tabindex="-1" href="#submission-instructions"><span class="icon icon-link"></span></a>Submission Instructions</h2>
-<ul><li>Submit a zipped folder with the assets</li></ul>`;
+<ul><li>Submit a zipped folder with any resources<ul><li>csvfile</li>
+<li>a readme with queries included</li>
+<li>Screen shots of your admin panel</li></ul></li></ul>`;
 });
 export {
   Activity_2 as default,
