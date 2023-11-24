@@ -6,6 +6,8 @@ points: 45
 
 In this group assignment, you will work with your classmates to create a database-driven blog that features a GUI CMS.
 
+This can be on any topic though I recommend to do it as a tech blog (focus on writing content that you can present on in 265). The ideas don't need to be novel, but should be meaningful. You can write tutorials, opinion pieces, explanations, reviews... whatever is relevant to you. If you're at a loss for content, think about major ah-ha moment's that you've had during the semester.
+
 **Grading**:
 
 - Group mark: 40 points
@@ -19,24 +21,34 @@ In this group assignment, you will work with your classmates to create a databas
 
 - Supabase has been connected to your Sveltekit app
 - Supabase is also integraded with Directus CMS
-- Data organization of imported CSV data
-- Row level security policies
+- Data organized via cms schema
+- Row level security policies set to select()
 
 ### 10 points: CMS Fields Design & Deployment
 
 - Blog post fields configuration
-- Categories are used
+- Categories are used to organize posts
 - 2 different types of posts
 - Content added to Directus (each person will write one blog entry)
 - Authors are added to CMS and author info is connected to the blogs
-  `
 
-### 10 points: Sveltekit App visual and infrastructural design
+### 10 points: Sveltekit App Design Quality
 
+- Accessible fonts and contrast
+- Responsive design
+- Use of whitespace
+- Visual hierarchy principles
+- interactions (hover and click etc) are easy to follow and use
+
+### 10 Points: Sveltekit App Code Quality
+
+- Normal routes are used for landing pages (non dynamic)
 - Dynamic routes are used for posts
-- Normal pages are used for landing pages (non dynamic)
-- High Fidelity Design Quality
-- Filtering by category is set up on the frontend
+- Component naming conventions
+- Directory structure
+- backend load functions
+- variable and function naming
+- object, array, and function design
 
 ### 5 points: Peer Evaluation
 
@@ -59,4 +71,5 @@ To facilitate group communication and transparency, submit a [GitHub Project Boa
 ## Submission Instructions
 
 - Only 1 person needs to submit the project repo and deployed link
+- Instructor needs to be added to supabase
 - **everyone** needs to submit a score for their teammates
