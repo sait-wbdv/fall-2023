@@ -38,11 +38,18 @@ points: 20
 
 ## Marking Rubric
 
-### 5 Points: Directus, Supabase, Sveltekit Configuration
+### 5 Points: Directus Configuration
+
+- Directus has been scaffolded locally
+- posts collection added
+- Access permissions are configured correctly
+- Directus install has been set up in git and pushed to github
+
+### 5 Points Supabase + Sveltekit Configuration
 
 - All 3 platforms are connected to one another
-- Access permissions are configured correctly
 - Platforms are all set up according to up to date instructions
+- Supabase feeds the frontend data that has been created in Directus
 
 ### 5 Points: Blog post schema and sample content
 
@@ -61,4 +68,8 @@ points: 20
 ## Submission Instructions
 
 - Submit a link to your deployed website
-- Also submit a read only link to your supabase endpoint
+- **IMPORTANT**: in your zipped folder (but not in your repo) submit images of:
+  - your Directus setup running locally
+  - Your collections settings screen
+  - The post Data schema
+- Also submit a read only link to your supabase endpoint and the api key (this should be in the text submission so that I can test the endpoint in postman)
